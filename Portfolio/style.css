@@ -1,0 +1,184 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.skill-card:hover {
+    background-color: #e0e0e0;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.resume-btn {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.resume-btn:hover {
+    background-color: #444;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
